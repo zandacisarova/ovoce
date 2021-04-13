@@ -1,0 +1,112 @@
+html { box-sizing: border-box; }
+
+*, ::after, ::before { box-sizing: inherit; }
+
+:root {
+--sed: hsla(353, 4%, 55%, 1);
+--bez: hsla(76, 57%, 91%, 1);
+--salv: hsla(105, 15%, 57%, 1);
+--zel: hsla(123, 37%, 23%, 1);
+--cerv: hsla(358, 88%, 13%, 1);
+}
+
+
+
+body {
+    width: auto;
+    margin: 0;
+    padding: 1em;
+    background-color: var(--bez);
+    font-family: "Poppins";
+    
+    
+       
+}
+
+section {
+    padding: 1em;
+    margin-bottom: 1em;
+    position: relative;
+    
+}
+
+.navbar {
+    background-color: var(--salv);
+    display: flex;
+}
+
+.navigace {
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--cerv);
+    font-weight: bold;
+    font-size: 17;
+    text-align: center;
+    padding-left: 2em;
+
+}
+
+
+
+nav {
+    
+    display: flex;
+    width: 30%;
+    flex-flow: row nowrap;
+    justify-content: right;
+    
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+ nav li a {
+     text-decoration: none;
+     font-weight: bold;
+     color: var(--zel);
+    
+ }
+
+
+ img {
+    width: 250px;
+    height: auto;
+}
+
+.informace {
+    background-image: url(img/happy.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    position: relative;
+
+}
+
+.procJimeOvoce h1 {
+    display: flex;
+    justify-content: center;
+    color: var(--salv);
+    text-shadow: 2px 0 0 var(--bez), 0.5px -2px 0 var(--zel);
+
+}
+
+.procJimeOvoce ul {
+    color: var(--salv);
+    text-shadow: 1px 1px 0 var(--zel), -0.7px -0.7px 0 var(--bez);
+    font-weight: normal;
+    
+}
+

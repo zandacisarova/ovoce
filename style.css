@@ -224,6 +224,7 @@ span {
 .druhyOvoce img {
     width: 150px;
     height: 150px;
+    border: 1px solid var(--bez);
     border-radius: 50%;
     margin-bottom: 1rem;
     box-shadow: 0 0 10px 0.5px var(--sed);
